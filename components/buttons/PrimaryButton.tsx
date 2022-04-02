@@ -1,4 +1,4 @@
-export default function PrimaryButton({text = "I am a primary button!"}: {text: string}) {
+export default function PrimaryButton({text = "Primary Button"}: {text: string}) {
   return (
     <button
       type="button"
