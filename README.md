@@ -1,34 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# dot9 UI
+Are you working on a React project and have the feeling that the component you are working on has already been implemented by someone else or have you created an awesome component for a client or a personal project and want to share it with all the other members and projects of *dot9*?
 
-## Getting Started
+Then you have come to the right place! Welcome to **dot9 UI**!
 
-First, run the development server:
+## What is dot9 UI?
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+dot9 UI is a company wide storybook (https://storybook.js.org/) and is intended to act as a collection of React components and NextJS Pages styled with tailwindCSS (https://tailwindcss.com/) that can be reused for rapid prototyping.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Not only that! You can also use the awesome interface of storybookJS to develop your components in a responsive and modular way!
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## How to get access dot9 UI design components?
+To access all of dot9 UI's components and pages just visit https://dot9-ui.netlify.app and enter the password `&8$L#2co313O`.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Now you can click through a variety of components and can just copy the source code under the components "Source Code" tab to use it in your own project.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Didn't find the right component? - How to contribute:
+When you want to add an own component to dot9 UI you can just copy the *example/Example.tsx* file to an appropriate location in the nextJS projects tree (NOTE: it cannot be located under the */stories* folder) and create a copy of the */stories/example* folder in the appropriate location under ther */stories* folder.
 
-## Learn More
+Next you can edit the filenames and adjust the code to your liking.
+The different files should contain the following:
 
-To learn more about Next.js, take a look at the following resources:
+- *Example.tsx*: Your components source code.
+- *Example.stories.tsx*: Your components stories and documentation (see https://storybook.js.org/docs/react/get-started/introduction for more information).
+- *Example.code.ts*: Paste the code in the string that is displayed in the storybook alongside your component under the "Source Code" tab (should be the same text as in the *Example.tsx* file.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To see a live demo of the storybook that you are editing just enter `yarn storybook` into your terminal.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+When you are finished and have created an awesome new component, just open a PR and help letting dot9 UI grow!!!
