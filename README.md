@@ -22,7 +22,7 @@ The different files should contain the following:
 
 - *Example.tsx*: Your components source code.
 - *Example.stories.tsx*: Your components stories and documentation (see https://storybook.js.org/docs/react/get-started/introduction for more information).
-- *Example.code.ts*: Paste the code in the string that is displayed in the storybook alongside your component under the "Source Code" tab (should be the same text as in the *Example.tsx* file.
+- *Example.code.ts*: Paste the code in the string that is displayed in the storybook alongside your component under the "Source Code" tab (should be the same text as in the *Example.tsx* file).
 
 To see a live demo of the storybook that you are editing just enter `yarn storybook` into your terminal.
 
